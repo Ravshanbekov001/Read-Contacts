@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_nav"
+    app:startDestination="@id/listContactsFragment">
+
+    <fragment
+        android:id="@+id/listContactsFragment"
+        android:name="com.example.readcontact.fragments.ListContactsFragment"
+        android:label="fragment_list_contacts"
+        tools:layout="@layout/fragment_list_contacts" >
+        <action
+            android:id="@+id/action_listContactsFragment_to_sendMessageFragment"
+            app:destination="@id/sendMessageFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/sendMessageFragment"
+        android:name="com.example.readcontact.fragments.SendMessageFragment"
+        android:label="fragment_send_message"
+        tools:layout="@layout/fragment_send_message" />
+</navigation>

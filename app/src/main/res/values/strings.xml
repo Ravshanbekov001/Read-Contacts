@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Read Contact</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_helper">Contact Helper</string>
+    <string name="send_message">Send Message</string>
+    <string name="message_here">Message here</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="save">Save</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="are_you_sure_delete_this_contact">Are you sure delete this contact?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+</resources>
